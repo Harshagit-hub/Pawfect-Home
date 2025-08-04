@@ -1,7 +1,7 @@
 import React from "react";
-import "./ContactSection.css";
+import ContactSection from "../components/ContactSection";
 
-const ContactSection = () => {
+function ContactSection() {
   return (
     <section className="contact-section">
       <div className="contact-wrapper">
@@ -24,14 +24,14 @@ const ContactSection = () => {
             <input type="text" placeholder=" Call yourself...?" required />
             <input type="email" placeholder="your@gmail.com..." required />
             <textarea placeholder="meow your thoughts..." rows="5" required></textarea>
-            <button type="Submit"style={{
-    backgroundColor: " #e6532fff"
-  }} >Send the Magic 📨</button>
+            <button type="Submit" style={{
+              backgroundColor: "#e6532fff"
+            }}>Send the Magic 📨</button>
           </form>
         </div>
       </div>
     </section>
   );
-};
+}
 
 export default ContactSection;
