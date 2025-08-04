@@ -25,7 +25,7 @@ function ContactSection() {
             <input type="email" placeholder="your@gmail.com..." required />
             <textarea placeholder="meow your thoughts..." rows="5" required></textarea>
             <button type="Submit" style={{
-              backgroundColor: "#e6532fff"
+              backgroundColor: "#e6532f"
             }}>Send the Magic 📨</button>
           </form>
         </div>
