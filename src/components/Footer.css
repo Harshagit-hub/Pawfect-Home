@@ -1,0 +1,87 @@
+.footer {
+  background-color: transparent; /* or use the same color as previous section */
+  /* Example: background-color: #f7f7f7; */
+  color: #bcbaa0;
+  padding: 40px 20px 10px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: auto;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #080000;
+}
+
+.footer-brand h2 {
+  color: #c8bea9;
+  font-size: 44px;
+  margin-bottom: 10px;
+}
+
+.footer-brand p {
+  font-size: 14px;
+  max-width: 300px;
+  color: #aaa;
+}
+
+.footer-links h4,
+.footer-contact h4 {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links ul li {
+  margin-bottom: 6px;
+}
+
+.footer-links ul li a {
+  color: #aaa;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-links ul li a:hover {
+  color: #fff;
+}
+
+.footer-contact p {
+  font-size: 14px;
+  margin: 4px 0;
+  color: #aaa;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 10px;
+  font-size: 13px;
+  color: #777;
+}
+.footer-brand h2,
+.footer-links h4,
+.footer-contact h4 {
+  color: #100101;
+}
+
+.footer-brand p,
+.footer-links ul li a,
+.footer-contact p {
+  color: #0c0101;
+}
+
+.footer-links ul li a:hover {
+  color: #000;
+}
+
+.footer-bottom {
+  color: #0f0101;
+}

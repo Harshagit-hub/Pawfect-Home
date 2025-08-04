@@ -1,0 +1,125 @@
+.contact-section {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;  
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #e5fff3, #ffe8f0);
+ flex-wrap: wrap;
+}
+
+.contact-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1200px;
+  align-items: flex-start;
+  margin: 0 auto;
+  /* width: 100%; */
+  background: #efeaeacc;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  animation: fadeInUp 1s ease;
+  
+}
+
+.contact-left,
+.contact-right {
+    flex: 1 1 400px;
+  max-width: 500px;
+}
+
+.contact-left h2 {
+  font-size: 32px;
+  color: #c12a2f;
+  margin-bottom: 15px;
+}
+
+.contact-left p {
+  font-size: 17px;
+  color: #786a6a;
+  margin-bottom: 25px;
+}
+
+.contact-info p {
+  margin: 10px 0;
+  font-size: 16px;
+  color: #786a6a;
+  line-height: 1.6;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  animation: fadeInUp 0.6s ease forwards;
+}
+
+.contact-form h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 14px 16px;
+  margin-bottom: 18px;
+  border: 1.5px solid #291dcb;
+  border-radius: 8px;
+  font-size: 15px;
+  background: #fdfbfb;
+  transition: border 0.3s, background 0.3s;
+  width: 100%; 
+  box-sizing: border-box; 
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #ab1313;
+  outline: none;
+  background: #f7eeee;
+}
+
+.contact-form button {
+  
+  color: white;
+  padding: 14px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color:#e09862,#c43511;
+}
+
+@keyframes fadeInUp {
+  from {
+    transform: translateY(40px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-left,
+  .contact-right {
+    flex: 1 1 100%;
+    padding: 30px;
+  }
+
+  .contact-form {
+    padding: 20px;
+  }
+}
